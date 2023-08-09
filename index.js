@@ -5,7 +5,7 @@ var winnerText = document.getElementById("winner");
 for(i=0;i<players.length;i++){
     var randomNum = GetRandomDice()
     randomList.push(randomNum);
-    players[i].setAttribute("src", "./images/dice"+randomNum+".png");
+    players[i].setAttribute("src", "./dice"+randomNum+".png");
 }
 
 if(randomList[0] === randomList[1]){
